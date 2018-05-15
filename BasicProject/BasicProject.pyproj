@@ -16,7 +16,7 @@
     <SuppressCollectPythonCloudServiceFiles>true</SuppressCollectPythonCloudServiceFiles>
     <Name>BasicProject</Name>
     <RootNamespace>BasicProject</RootNamespace>
-    <InterpreterId>MSBuild|env|D:\Examples\Python\LearningFlask\FlaskWeb\FlaskWeb.pyproj</InterpreterId>
+    <InterpreterId>MSBuild|env|d:\examples\Python\LearningFlask\FlaskWeb\FlaskWeb.pyproj</InterpreterId>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -38,6 +38,7 @@
     <Content Include="HelloFlask\static\site.css" />
     <Content Include="HelloFlask\templates\about.html" />
     <Content Include="HelloFlask\templates\index.html" />
+    <Content Include="HelloFlask\templates\layout.html" />
     <Content Include="requirements.txt" />
   </ItemGroup>
   <ItemGroup>
@@ -46,7 +47,7 @@
     <Folder Include="HelloFlask\templates\" />
   </ItemGroup>
   <ItemGroup>
-    <InterpreterReference Include="MSBuild|env|D:\Examples\Python\LearningFlask\FlaskWeb\FlaskWeb.pyproj" />
+    <InterpreterReference Include="MSBuild|env|d:\examples\Python\LearningFlask\FlaskWeb\FlaskWeb.pyproj" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.Web.targets" />
   <!-- Specify pre- and post-build commands in the BeforeBuild and 

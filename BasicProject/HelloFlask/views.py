@@ -19,11 +19,8 @@ def get_data():
     return app.send_static_file('data.json')
 
 @app.route('/about')
-def about(request):
+def about():
     return render_template(
         "about.html",
-        {
-            'title' : "About HelloFlask",
-            'content' : "Example app page for Flask."
-        }
-    )
+        title = "About HelloFlask",
+        content = "Example app page for Flask.")
