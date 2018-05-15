@@ -260,3 +260,5 @@ paket-files/
 __pycache__/
 *.pyc
 /BasicProject/env
+/BasicProject/.mypy_cache/3.6
+/FlaskWeb/env
